@@ -15,20 +15,22 @@ function index() {
         <div className={`${open ? "links open" : "links"}`}>
           <ul>
             <li>
-              <a href="">Home</a>
+              <a className="active" href="#home">
+                Home
+              </a>
             </li>
             <li>
-              <a href="">about</a>
+              <a href="#about">about</a>
             </li>
             <li>
-              <a href="">project</a>
+              <a href="">Tech stacks</a>
             </li>
             <li>
-              <a href="">contact me</a>
+              <a href="">Projects</a>
             </li>
             <li>
               <a className="hireme" href="">
-                Hire Me
+                contact Me
               </a>
             </li>
           </ul>

@@ -1,28 +1,61 @@
 
-section{
-    background: url("../../assets/img/bg.svg");
-    height: 100vh;
+.home-section{
+    background: linear-gradient(to left, rgba(44, 43, 43, 0.5), rgba(238, 238, 238, 0.5)), url("../../assets/img/ZO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
     padding:30px 50px;
     text-transform: capitalize;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 150px;
+    grid-template-columns: 3fr 1fr;
 }
-section .text{
-    margin-top: 100px;
+.home-section .text{
+    margin-top: 170px;
 }
-section .text h1{
+.home-section .text h1{
     color: var(--primary);
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 5rem;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
-section .text p {
-    color: #383224;
+.text span.hello{
+    /* animation-name: shake; */
+    animation-duration: 0.9s;
+    animation-delay: 5s;
+    transition: all 3s ease-in-out;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    animation-iteration-count: infinite;
+}
+.home-section .mobile-image{
+    display:none;
+}
+@keyframes shake {
+    0%{
+        left: 0;
+    }
+    25%{
+        left: -2%;
+    }
+    50%{
+        left: 2%;
+    }
+    100%{
+        left: 0;
+    }
+}
+.home-section .text h2{
+    color: #eebdae;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    
+}
+.home-section .text p {
+    color: #263343;
     font-size: 1.4rem;
     margin-bottom: 40px;
 }
-section .text a{
+.home-section .text a{
     border:  2px solid var(--primary);
     color: var(--primary);
     text-decoration: none;
@@ -32,15 +65,87 @@ section .text a{
     transition: all 1s ease-in-out;
 
 }
-section .text a:hover{
+.home-section .text a:hover{
     background: var(--primary);
     color: var(--white);
     transition: all 1s ease-in-out;
 }
-section .myimage{
-    margin-top: 50px;
-    text-align: center;
+.home-section .myimage{
+    margin: auto;
+    margin-top: 70px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: var(--primary);
-    border-radius: 100px;
+    border-radius: 40px;
     height: 80vh;
+}
+@media screen and (max-width:890px) {
+    .home-section{
+        grid-template-columns: 1fr;
+    }
+    .home-section .text{
+        order: 2;
+    }
+    .home-section .text {
+       text-align: center;
+    }
+    
+}
+@media screen  and (max-width:690px) {
+    .home-section{
+        text-align: center;
+        height: fit-content;
+    }
+    .home-section .myimage{
+        display: none;
+    }
+    .home-section .mobile-image{
+        display: block;
+        margin-top: 100px;
+    }
+    .home-section .mobile-image img{
+        border-radius: 50%;
+        width: 75%;
+       
+    }
+    .home-section .text{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        max-width: 650px;
+    }
+    .home-section .text h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .home-section .text h2 {
+        font-size: 1.7rem;
+        line-height: 2rem;
+        color: #2D3A4B;
+    }
+    .home-section .text p{
+        display: none;
+    }
+}
+@media screen and (max-width:400px){
+    .home-section{
+        height: 100vh;
+        padding: 10px;
+    }
+    .home-section .mobile-image img{
+        width: 90%; 
+    }
+    .home-section .text{
+        margin-top: 0;
+    }
+    .home-section .text h1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .home-section .text h2{
+        font-size: 1.1rem;
+        color:#2D3A4B ;
+    }
 }

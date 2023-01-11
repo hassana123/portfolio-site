@@ -7,7 +7,7 @@ nav {
     padding:15px;
     z-index: 2;
     text-transform: capitalize;
-    grid-template-columns: 1.5fr 3fr;
+    grid-template-columns: 1.5fr 4fr;
 }
 nav .logo{
     display: flex;
@@ -37,6 +37,9 @@ nav .links ul li a{
 nav .links ul li a:hover{
     color: #C1E0EB;
 }
+nav .links ul li a.active {
+    color: #C1E0EB;
+}
 nav ul li a.hireme:hover{
     background: var(--white);
     color: var(--primary);
@@ -44,9 +47,9 @@ nav ul li a.hireme:hover{
 nav ul li a.hireme {
     background-color:  #C1E0EB;
     color:  var(--primary);
-    padding: 10px 25px;
+    padding: 10px 15px;
     border-radius: 20px;
-    margin-left: 90px;
+    margin-left: 60px;
 }
 .hamburger-btn{
     display: none;
@@ -85,11 +88,12 @@ nav ul li a.hireme {
         opacity: 0;
         top: 8.5%;
         text-align: center;
-        width: 50%;
+        width: 70%;
         padding: 15px;
         background-color: var(--white);
         transition: all 2s ease-in-out;
     }
+    
     nav .links.open{
         right:0%;
         opacity: 1;

@@ -1,21 +1,28 @@
 import React from "react";
 import "./style.css";
 import hassy from "../../assets/img/snaphassy.svg";
+import mobilehassy from "../../assets/img/mobilehassy.svg";
 
 const index = () => {
   return (
-    <section>
+    <section id="home" className="home-section">
       <div className="text">
-        <h1>Hello, I am a Frontend Developer</h1>
+        <h1>
+          Holla <small className="hello">👋🏾</small> , i am Hassana
+        </h1>
+        <h2> I am a Frontend Developer</h2>
         <p>
-          Hi, I’m a Frontend Developer currently based in Nigeria with 1+ years
-          of professional experience in Web development using different web
-          technologies
+          I’m a Frontend Developer web developer who likes to create and build
+          exciting and challeging projects. I have a passion for discovering new
+          things and also learning new technologies.
         </p>
         <a href="">Holla at with me</a>
       </div>
       <div className="myimage">
         <img src={hassy} alt="" />
+      </div>
+      <div className="mobile-image">
+        <img src={mobilehassy} alt="" />
       </div>
     </section>
   );

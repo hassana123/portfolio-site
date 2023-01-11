@@ -24,3 +24,9 @@
   --white: #ffffff;
   --black: #000000;
 }
+/* section{
+  background: linear-gradient(to left, rgba(44, 43, 43, 0.5), rgba(238, 238, 238, 0.5)), url("../src/assets/img/ZO.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+} */
