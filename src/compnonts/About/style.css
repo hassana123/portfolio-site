@@ -1,51 +1,23 @@
 .about-section{
     background: var(--primary);
-    padding: 30px 50px;
+    padding:10px;
+    height:fit-content;
     text-align: center;
+    font-family: 'Sofia Sans Condensed', sans-serif;
     text-transform: capitalize;
 }
-.about-section .border-top{
-    width: 100px;
-    margin-top: 80px;
-    position: relative;
-    right: -53%;
-    animation-name: right;
-    animation-duration: 3s;
-    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-   
+.about {
+    display: flex;
+    margin: 70px;
+    justify-content: center;
 }
-@keyframes right {
-    0%{
-        right: -100%;
-    }
-    100%{
-        right: -53%;
-    }
-}
-.about-section .border-bottom {
-    width: 100px;
-    position: relative;
-    left: 39%;
-    margin-bottom: 50px;
-    animation-name: left;
-    animation-duration: 3s;
-    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-    
-}
-@keyframes left {
-    0%{
-        left: -100%;
-
-    }
-    100%{
-        left: 39%;
-    }
-}
-.about-section h3{
-    text-decoration: line-through;
-    margin: 5px;
+.about-section .about h3{
+    text-decoration: overline;
+    margin-top: 15px;
+    font-size: 1.5rem;
     animation-name: opacity;
     animation-duration: 5s;
+    color: #ff7f50;
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 @keyframes opacity {
@@ -57,8 +29,11 @@
     }
 }
 .about-section p{
-    width: 95%;
+    width: 100%;
+    border: 3px groove #ffffff;
+    padding:15px;
     max-width: 900px;
+    border-radius: 20px;
     margin: auto;
     margin-bottom: 70px;
 }

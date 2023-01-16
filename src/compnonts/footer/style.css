@@ -1,0 +1,14 @@
+footer{
+    text-align: center;
+    padding: 2px;
+    background: #ff7f50;
+}
+footer .links{
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+}
+.links img{
+    width: 20px;
+    margin: 0 10px;
+}

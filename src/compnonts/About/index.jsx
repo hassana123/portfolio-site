@@ -4,10 +4,10 @@ import "./style.css";
 const index = () => {
   return (
     <section id="about" className="about-section">
-      <hr className="border-top" />
-      <h3>About me</h3>
-      <hr className="border-bottom" />
-      <span></span>
+      <div className="about">
+        <small>a little</small>
+        <h3>About me</h3>
+      </div>
       <p>
         I am Hassana Abdullahi, currently a level 300 student at bayero
         university kano in Nigeria but steadily transitioning into tech. Having

@@ -1,0 +1,88 @@
+.contact-section{
+    color: var(--primary);
+    text-align: center;
+    padding: 15px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+.contact-section .text{
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+}
+.contact-section .text h3{
+    font-size: 1.5rem;
+    margin-top: 18px;
+    text-decoration: overline;
+    color: #ff7f50;
+}
+.contact-section .forms{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+form{
+    width: 95%;
+    max-width: 400px;
+}
+
+.contact-section form input{
+    display: block;
+    width: 90%;
+    background-color: var(--white);
+    outline: none;
+    height: 6vh;
+    padding: 15px;
+    border: 2px solid var(--primary);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.contact-section form textarea{
+    display: block;
+    width: 90%;
+    background-color: var(--white);
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.contact-section form button{
+    display: block;
+    padding: 10px 30px;
+    background: var(--primary);
+    color: #ff7f50;
+    border: none;
+    font-size: .8rem;
+    margin: auto;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+    margin-bottom: 50px;
+}
+.contact-section form button:hover{
+    background-color: #ff7f50;
+    color: var(--primary);
+    transition: all 1s ease-in-out;
+}
+.contact-section .forms-text{
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: fit-content;
+    background: var(--white);
+    border: 2px solid var(--primary);
+}
+.forms-text p{
+    font-size: 1.3rem;
+    margin: 60px 0;
+
+}
+.forms-text a{
+    text-decoration: none;
+    color: #ff7f50;
+    padding: 0 20px;
+}
+
+@media screen and (max-width:720px) {
+    .contact-section .forms{
+        grid-template-columns: 1fr;
+    }
+}

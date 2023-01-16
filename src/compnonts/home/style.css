@@ -5,6 +5,7 @@
     background-size: cover;
     height: fit-content;
     padding:30px 50px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
     text-transform: capitalize;
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -15,6 +16,9 @@
 .home-section .text h1{
     color: var(--primary);
     font-size: 3rem;
+    font-family: 'Charmonman', cursive;
+    /* font-family: 'Romanesco', cursive; */
+    /* font-family: cursive; */
     line-height: 5rem;
     margin-bottom: 10px;
 }
@@ -45,14 +49,16 @@
     }
 }
 .home-section .text h2{
-    color: #eebdae;
+    color: #ff7f50;
     font-size: 2rem;
+    line-height: 2rem;
     margin-bottom: 40px;
     
 }
 .home-section .text p {
     color: #263343;
     font-size: 1.4rem;
+    
     margin-bottom: 40px;
 }
 .home-section .text a{
@@ -123,7 +129,7 @@
     .home-section .text h2 {
         font-size: 1.7rem;
         line-height: 2rem;
-        color: #2D3A4B;
+        
     }
     .home-section .text p{
         display: none;

@@ -23,7 +23,7 @@ function index() {
               <a href="#about">about</a>
             </li>
             <li>
-              <a href="">Tech stacks</a>
+              <a href="#stacks">Tech stacks</a>
             </li>
             <li>
               <a href="">Projects</a>
