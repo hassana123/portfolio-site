@@ -13,6 +13,10 @@
 .home-section .text{
     margin-top: 170px;
 }
+.home-section .text a img{
+    width: 20px;
+    margin: 0 5px;
+}
 .home-section .text h1{
     color: var(--primary);
     font-size: 3rem;

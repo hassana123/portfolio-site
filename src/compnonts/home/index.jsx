@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import whatsApp from "../../assets/icons/icons8-whatsapp-150.png";
 import hassy from "../../assets/img/snaphassy.svg";
 import mobilehassy from "../../assets/img/mobilehassy.svg";
 
@@ -16,7 +17,9 @@ const index = () => {
           exciting and challeging projects. I have a passion for discovering new
           things and also learning new technologies.
         </p>
-        <a href="">Holla at with me</a>
+        <a href="">
+          chat me up <img src={whatsApp} alt="" />
+        </a>
       </div>
       <div className="myimage">
         <img src={hassy} alt="" />

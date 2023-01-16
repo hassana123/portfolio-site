@@ -47,9 +47,13 @@
 .project-container a{
     text-decoration: none;
     color: var(--primary);
+    
     font-size: 1.2rem;
     margin: 15px;
+    display: flex;
+    gap: 2px;
 }
+
 .project-container .github{
     float: right;
 }

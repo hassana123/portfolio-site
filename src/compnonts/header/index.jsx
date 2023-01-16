@@ -6,7 +6,7 @@ function index() {
   const [open, setOpen] = useState(false);
   console.log(open);
   return (
-    <>
+    <header>
       <nav>
         <div className="logo">
           <img src={logo} alt="" />
@@ -42,7 +42,7 @@ function index() {
           <span className="line" />
         </div>
       </nav>
-    </>
+    </header>
   );
 }
 

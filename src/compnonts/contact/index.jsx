@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
-
+import wtp from "../../assets/icons/icons8-whatsapp-ios-16-32.png";
+import phone from "../../assets/icons/icons8-phone-call-outline-32.png";
+import gmail from "../../assets/icons/icons8-gmail-logo-ios-16-32.png";
 const index = () => {
   return (
     <section id="contact" className="contact-section">
@@ -22,9 +24,15 @@ const index = () => {
             can. I'm also available for collaborations. Reach out and let's
             TechNet (Connect). Also available via
           </p>
-          <a href="">phone</a>
-          <a href="">whatsApp</a>
-          <a href="">gmail</a>
+          <a href="">
+            <img src={phone} alt="" />
+          </a>
+          <a href="">
+            <img src={wtp} alt="" />
+          </a>
+          <a href="">
+            <img src={gmail} alt="" />
+          </a>
         </div>
       </div>
     </section>

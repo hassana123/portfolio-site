@@ -1,4 +1,5 @@
 import React from "react";
+import arrow from "../../assets/icons/icons8-right-arrow-windows-11-outline-32.png";
 import "./style.css";
 import qoutely from "../../assets/img/QUOTELY.png";
 import typely from "../../assets/img/Document.png";
@@ -26,10 +27,10 @@ const index = () => {
             maiores alias a totam magni minus!
           </p>
           <a href="" className="preview">
-            preview
+            preview <img src={arrow} alt="" />
           </a>
           <a href="" className="github">
-            Github
+            Github <img src={arrow} alt="" />
           </a>
         </div>
         <div className="project-container">
@@ -40,10 +41,10 @@ const index = () => {
             maiores alias a totam magni minus!
           </p>
           <a href="" className="preview">
-            preview
+            preview <img src={arrow} alt="" />
           </a>
           <a href="" className="github">
-            Github
+            Github <img src={arrow} alt="" />
           </a>
         </div>
         <div className="project-container">
@@ -54,10 +55,10 @@ const index = () => {
             maiores alias a totam magni minus!
           </p>
           <a href="" className="preview">
-            preview
+            preview <img src={arrow} alt="" />
           </a>
           <a href="" className="github">
-            Github
+            Github <img src={arrow} alt="" />
           </a>
         </div>
         <div className="project-container">
@@ -68,10 +69,10 @@ const index = () => {
             maiores alias a totam magni minus!
           </p>
           <a href="" className="preview">
-            preview
+            preview <img src={arrow} alt="" />
           </a>
           <a href="" className="github">
-            Github
+            Github <img src={arrow} alt="" />
           </a>
         </div>
         <div className="project-container">
@@ -82,10 +83,10 @@ const index = () => {
             maiores alias a totam magni minus!
           </p>
           <a href="" className="preview">
-            preview
+            preview <img src={arrow} alt="" />
           </a>
           <a href="" className="github">
-            Github
+            Github <img src={arrow} alt="" />
           </a>
         </div>
         <div className="project-container">
@@ -96,10 +97,10 @@ const index = () => {
             maiores alias a totam magni minus!
           </p>
           <a href="" className="preview">
-            preview
+            preview <img src={arrow} alt="" />
           </a>
           <a href="" className="github">
-            Github
+            Github <img src={arrow} alt="" />
           </a>
         </div>
         <div className="project-container">
@@ -110,10 +111,10 @@ const index = () => {
             maiores alias a totam magni minus!
           </p>
           <a href="" className="preview">
-            preview
+            preview <img src={arrow} alt="" />
           </a>
           <a href="" className="github">
-            Github
+            Github <img src={arrow} alt="" />
           </a>
         </div>
         <div className="project-container">
@@ -124,10 +125,10 @@ const index = () => {
             maiores alias a totam magni minus!
           </p>
           <a href="" className="preview">
-            preview
+            preview <img src={arrow} alt="" />
           </a>
           <a href="" className="github">
-            Github
+            Github <img src={arrow} alt="" />
           </a>
         </div>
       </div>
