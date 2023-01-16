@@ -12,7 +12,7 @@ nav {
     display: grid;
     width: 100%;
     padding:15px;
-    z-index: 2;
+    z-index: 10;
     text-transform: capitalize;
     grid-template-columns: 1.5fr 4fr;
 }
@@ -71,7 +71,7 @@ nav ul li a.hireme {
         position: absolute;
         right: 5%;
         top: 20%;
-        cursor: pointer;
+         cursor: pointer;
     }
     .hamburger-btn .line{
         display: block;
@@ -97,7 +97,7 @@ nav ul li a.hireme {
         position: fixed;
         right: -100%;
         opacity: 0;
-        top: 8.5%;
+        top: 125%;
         text-align: center;
         width: 70%;
         padding: 15px;
