@@ -3,7 +3,7 @@ import "./style.css";
 
 const index = () => {
   return (
-    <section className="contact-section">
+    <section id="contact" className="contact-section">
       <div className="text">
         <span>send me a message via</span>
         <h3>Contact</h3>

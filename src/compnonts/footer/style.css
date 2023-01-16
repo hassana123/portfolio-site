@@ -3,6 +3,10 @@ footer{
     padding: 2px;
     background: #ff7f50;
 }
+footer small{
+    font-weight: 900;
+    font-family: 'Monoton', cursive;
+}
 footer .links{
     display: inline-block;
     float: right;

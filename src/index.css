@@ -32,5 +32,6 @@ section{
   background-repeat: no-repeat;
   background-size: cover;
   height: fit-content;
+  transition: all 1s ease-in-out;
   text-transform: capitalize;
 }

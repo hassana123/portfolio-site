@@ -11,7 +11,7 @@ import random from "../../assets/img/halally.png";
 
 const index = () => {
   return (
-    <section className="project-section">
+    <section id="projects" className="project-section">
       <div className="text">
         <small> some of my</small>
         <h3>Projects</h3>

@@ -15,9 +15,7 @@ function index() {
         <div className={`${open ? "links open" : "links"}`}>
           <ul>
             <li>
-              <a className="active" href="#home">
-                Home
-              </a>
+              <a href="#home">Home</a>
             </li>
             <li>
               <a href="#about">about</a>
@@ -26,10 +24,10 @@ function index() {
               <a href="#stacks">Tech stacks</a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a className="hireme" href="">
+              <a className="hireme" href="#contact">
                 contact Me
               </a>
             </li>
