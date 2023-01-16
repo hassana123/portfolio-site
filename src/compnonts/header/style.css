@@ -3,7 +3,7 @@ header{
     z-index: 1000;
     height: 9vh;
 }
-nav {
+nav { 
     position: fixed;
     background: rgba(0, 38, 62, 0.5);
     box-shadow:0px 3px  3px var(--primary);

@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Html2 from "../../assets/icons/icons8-Html-5-150.svg";
+import Html2 from "../../assets/icons/icons8-html-5-150.svg";
 import Css from "../../assets/icons/icons8-css3-150.svg";
 import vue from "../../assets/icons/icons8-vuejs-128.svg";
 import react from "../../assets/icons/icons8-react-200.svg";
