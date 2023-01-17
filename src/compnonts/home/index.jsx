@@ -17,7 +17,7 @@ const index = () => {
           exciting and challeging projects. I have a passion for discovering new
           things and also learning new technologies.
         </p>
-        <a href="">
+        <a href="https://wa.me/08102920194">
           chat me up <img src={whatsApp} alt="" />
         </a>
       </div>

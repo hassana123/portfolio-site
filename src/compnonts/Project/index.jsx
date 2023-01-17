@@ -26,10 +26,10 @@ const index = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
             maiores alias a totam magni minus!
           </p>
-          <a href="" className="preview">
+          <a href="https://quootely.netlify.app/" className="preview">
             preview <img src={arrow} alt="" />
           </a>
-          <a href="" className="github">
+          <a href="https://github.com/hassana123/quoteLY" className="github">
             Github <img src={arrow} alt="" />
           </a>
         </div>
@@ -40,10 +40,13 @@ const index = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
             maiores alias a totam magni minus!
           </p>
-          <a href="" className="preview">
+          <a href="https://tally-counter-kappa.vercel.app/" className="preview">
             preview <img src={arrow} alt="" />
           </a>
-          <a href="" className="github">
+          <a
+            href="https://github.com/hassana123/tally-counter"
+            className="github"
+          >
             Github <img src={arrow} alt="" />
           </a>
         </div>
@@ -54,10 +57,10 @@ const index = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
             maiores alias a totam magni minus!
           </p>
-          <a href="" className="preview">
+          <a href="https://typelyy.netlify.app/" className="preview">
             preview <img src={arrow} alt="" />
           </a>
-          <a href="" className="github">
+          <a href="https://github.com/hassana123/Typly" className="github">
             Github <img src={arrow} alt="" />
           </a>
         </div>
@@ -68,10 +71,10 @@ const index = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
             maiores alias a totam magni minus!
           </p>
-          <a href="" className="preview">
+          <a href="https://drum-pad-by-hassy.netlify.app/" className="preview">
             preview <img src={arrow} alt="" />
           </a>
-          <a href="" className="github">
+          <a href="https://github.com/hassana123/drumpad" className="github">
             Github <img src={arrow} alt="" />
           </a>
         </div>
@@ -82,10 +85,13 @@ const index = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
             maiores alias a totam magni minus!
           </p>
-          <a href="" className="preview">
+          <a href="https://profile-caard.netlify.app/" className="preview">
             preview <img src={arrow} alt="" />
           </a>
-          <a href="" className="github">
+          <a
+            href="https://github.com/hassana123/profile-card"
+            className="github"
+          >
             Github <img src={arrow} alt="" />
           </a>
         </div>
@@ -96,10 +102,16 @@ const index = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
             maiores alias a totam magni minus!
           </p>
-          <a href="" className="preview">
+          <a
+            href="https://portfolio-site-by-hassy.vercel.app/"
+            className="preview"
+          >
             preview <img src={arrow} alt="" />
           </a>
-          <a href="" className="github">
+          <a
+            href="https://github.com/hassana123/portfolio-site"
+            className="github"
+          >
             Github <img src={arrow} alt="" />
           </a>
         </div>
@@ -110,10 +122,13 @@ const index = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
             maiores alias a totam magni minus!
           </p>
-          <a href="" className="preview">
+          <a
+            href="https://harmonious-todo-app.netlify.app/"
+            className="preview"
+          >
             preview <img src={arrow} alt="" />
           </a>
-          <a href="" className="github">
+          <a href="https://github.com/hassana123/todo-app" className="github">
             Github <img src={arrow} alt="" />
           </a>
         </div>
@@ -124,10 +139,10 @@ const index = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
             maiores alias a totam magni minus!
           </p>
-          <a href="" className="preview">
+          <a href="https://hallaly-hassana123.vercel.app/" className="preview">
             preview <img src={arrow} alt="" />
           </a>
-          <a href="" className="github">
+          <a href="https://github.com/hassana123/hallaly" className="github">
             Github <img src={arrow} alt="" />
           </a>
         </div>

@@ -9,13 +9,13 @@ function index() {
     <footer>
       <small>©TechSultana</small>
       <div className="links">
-        <a href="">
+        <a href="https://twitter.com/hassanaabdll1?t=k_-E0NDlk5C-Sax0zMjOqw&s=09">
           <img src={twit} alt="" />
         </a>
-        <a href="">
+        <a href="https://github.com/hassana123">
           <img src={github} alt="" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/hassana-abdullahi-858040240">
           <img src={linkd} alt="" />
         </a>
       </div>

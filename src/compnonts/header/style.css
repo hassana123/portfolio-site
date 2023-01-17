@@ -30,7 +30,7 @@ nav .links{
 }
 nav h1{
     font-size: 1.5rem;
-   font-family: 'Monoton', cursive;
+   font-family: 'monoton', cursive !important;
 }
 nav .links ul li{
     list-style: none;
@@ -71,7 +71,7 @@ nav ul li a.hireme {
         position: absolute;
         right: 5%;
         top: 20%;
-         cursor: pointer;
+        cursor: pointer;
     }
     .hamburger-btn .line{
         display: block;
@@ -97,7 +97,7 @@ nav ul li a.hireme {
         position: fixed;
         right: -100%;
         opacity: 0;
-        top: 125%;
+        top: 110%;
         text-align: center;
         width: 70%;
         padding: 15px;

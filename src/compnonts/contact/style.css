@@ -27,6 +27,7 @@ form{
 .contact-section form input{
     display: block;
     width: 90%;
+    color: var(--primary);
     background-color: var(--white);
     outline: none;
     height: 6vh;
@@ -42,7 +43,9 @@ form{
     border: 2px solid var(--primary);
     border-radius: 5px;
     margin-bottom: 30px;
+    color: var(--primary);
 }
+
 .contact-section form button{
     display: block;
     padding: 10px 30px;

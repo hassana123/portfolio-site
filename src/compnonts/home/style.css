@@ -12,6 +12,7 @@
 }
 .home-section .text{
     margin-top: 170px;
+    margin-bottom: 70px;
 }
 .home-section .text a img{
     width: 20px;
@@ -76,20 +77,25 @@
 
 }
 .home-section .text a:hover{
-    background: var(--primary);
+    background: #ff7f50;
     color: var(--white);
     transition: all 1s ease-in-out;
 }
 .home-section .myimage{
     margin: auto;
     margin-top: 70px;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
+    width: 80%;
+    /* display: flex; */
+    height: fit-content;
+    /* flex-direction: column; */
     align-items: center;
     background: var(--primary);
     border-radius: 40px;
-    height: 80vh;
+}
+.myimage img{
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
 }
 @media screen and (max-width:890px) {
     .home-section{

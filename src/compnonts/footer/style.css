@@ -5,7 +5,7 @@ footer{
 }
 footer small{
     font-weight: 900;
-    font-family: 'Monoton', cursive;
+    font-family: 'monoton', cursive !important;
 }
 footer .links{
     display: inline-block;

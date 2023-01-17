@@ -11,10 +11,28 @@ const index = () => {
         <h3>Contact</h3>
       </div>
       <div className="forms">
-        <form action="">
-          <input type="text" name="" id="" placeholder="enter your  name" />
-          <input type="email" name="" id="" placeholder="enter your  email" />
-          <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <form action="mailto:hassanaabdll1@gmail.com">
+          <input
+            type="text"
+            required
+            name=""
+            id=""
+            placeholder="enter your  name"
+          />
+          <input
+            required
+            type="email"
+            name=""
+            id=""
+            placeholder="enter your  email"
+          />
+          <textarea
+            required
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
           <button type="submit">Send Message</button>
         </form>
         <div className="forms-text">
@@ -24,13 +42,13 @@ const index = () => {
             can. I'm also available for collaborations. Reach out and let's
             TechNet (Connect). Also available via
           </p>
-          <a href="">
+          <a href="tel:08102920194">
             <img src={phone} alt="" />
           </a>
-          <a href="">
+          <a href="https://wa.me/08102920194">
             <img src={wtp} alt="" />
           </a>
-          <a href="">
+          <a href="mailto:hassanaabdll1@gmail.com">
             <img src={gmail} alt="" />
           </a>
         </div>

@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 import Html2 from "../../assets/icons/icons8-html-5-150.svg";
 import Css from "../../assets/icons/icons8-css3-150.svg";
-import vue from "../../assets/icons/icons8-vuejs-128.svg";
 import react from "../../assets/icons/icons8-react-200.svg";
 import Js from "../../assets/icons/icons8-javascript-logo.svg";
 import Github from "../../assets/icons/icons8-github-squared-200.svg";
@@ -35,11 +34,6 @@ const index = () => {
           <img src={Github} alt="" />
           {/* <p>github</p> */}
         </div>
-        <div>
-          <img src={vue} alt="" />
-          {/* <p>vue</p> */}
-        </div>
-
         <div>
           <img src={git} alt="" />
           {/* <p>git</p> */}
