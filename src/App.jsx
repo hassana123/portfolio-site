@@ -4,7 +4,7 @@ const Header = lazy(() => import("./compnonts/header"));
 const Home = lazy(() => import("./compnonts/home"));
 const About = lazy(() => import("./compnonts/About"));
 const Stacks = lazy(() => import("./compnonts/stacks"));
-const Projects = lazy(() => import("./compnonts/project"));
+const Projects = lazy(() => import("./compnonts/Project"));
 const Contact = lazy(() => import("./compnonts/contact"));
 const Footer = lazy(() => import("./compnonts/footer"));
 import Loading from "./compnonts/loading/index.jsx";
