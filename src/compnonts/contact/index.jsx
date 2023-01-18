@@ -3,7 +3,26 @@ import "./style.css";
 import wtp from "../../assets/icons/icons8-whatsapp-ios-16-32.png";
 import phone from "../../assets/icons/icons8-phone-call-outline-32.png";
 import gmail from "../../assets/icons/icons8-gmail-logo-ios-16-32.png";
+import { useState } from "react";
 const index = () => {
+  const [submit, setSubmit] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  function checkSub() {
+    if (name != "" && email != "" && message != "") {
+      setSubmit(true);
+    }
+  }
+  function handleChangeName(event) {
+    setName(event.target.value);
+  }
+  function handleChangeMail(event) {
+    setEmail(event.target.value);
+  }
+  function handleChangeMessage(event) {
+    setMessage(event.target.value);
+  }
   return (
     <section id="contact" className="contact-section">
       <div className="text">
@@ -11,30 +30,49 @@ const index = () => {
         <h3>Contact</h3>
       </div>
       <div className="forms">
-        <form action="mailto:hassanaabdll1@gmail.com">
-          <input
-            type="text"
-            required
-            name=""
-            id=""
-            placeholder="enter your  name"
-          />
-          <input
-            required
-            type="email"
-            name=""
-            id=""
-            placeholder="enter your  email"
-          />
-          <textarea
-            required
-            name="message"
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
-          <button type="submit">Send Message</button>
-        </form>
+        {submit ? (
+          <div className="thank-you-meesage">
+            <h5>Message Recieved!</h5>
+            <p>thank you {name}</p>
+            <small>want to send another message?</small>
+            <button onClick={() => setSubmit(false)}>
+              send another message
+            </button>
+          </div>
+        ) : (
+          <form
+            onSubmit={() => checkSub()}
+            method="post"
+            action="mailto:hassanaabdll1@gmail.com"
+          >
+            <input
+              onChange={handleChangeName}
+              type="text"
+              required
+              name=""
+              id=""
+              placeholder="enter your  name"
+            />
+            <input
+              onChange={handleChangeMail}
+              required
+              type="email"
+              name=""
+              id=""
+              placeholder="enter your  email"
+            />
+            <textarea
+              required
+              onChange={handleChangeMessage}
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        )}
+
         <div className="forms-text">
           <p>
             If you have any questions or want to make me an offer, please feel

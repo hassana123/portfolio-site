@@ -83,7 +83,41 @@ form{
     color: #ff7f50;
     padding: 0 20px;
 }
+.forms .thank-you-meesage{
+    background: rgba(255, 255, 255, 0.158);
+    width: 70%;
+    padding: 5px;
+    box-shadow: 0px 7px 7px var(--black);
+    backdrop-filter: blur(15px);
+    margin-bottom: 20px;
 
+}
+.thank-you-meesage h5{
+    font-size: 2rem;
+    margin-top: 80px;
+    line-height: 2rem;
+}
+.thank-you-meesage p{
+    color: #ff7f50;
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+
+.thank-you-meesage button{
+    background-color: var(--primary);
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 15px;
+    transition: all 1s ease-in-out;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+
+.thank-you-meesage button:hover{
+    background: #ff7f50;
+    transition: all 1s ease-in-out;
+}
 @media screen and (max-width:720px) {
     .contact-section .forms{
         grid-template-columns: 1fr;
