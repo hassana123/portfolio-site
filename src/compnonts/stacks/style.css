@@ -13,13 +13,13 @@ font-family: 'Sofia Sans Condensed', sans-serif;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
 }
-@keyframes stacks {
+/* @keyframes stacks {
     from {
         opacity: 0;
         margin-right: -200px;
 
     }
-}
+} */
 .stacks-section .text small{
     
 }

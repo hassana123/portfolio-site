@@ -13,13 +13,13 @@
     animation-iteration-count: infinite;
     animation-fill-mode: both;
 }
-@keyframes contact {
+/* @keyframes contact {
     from {
         opacity: 0;
         margin-right: -200px;
 
     }
-}
+} */
 .contact-section .text h3{
     font-size: 1.5rem;
     margin-top: 18px;

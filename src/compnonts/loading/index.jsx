@@ -4,8 +4,10 @@ import "./style.css";
 const index = () => {
   return (
     <div className="loading-container">
-      <div className="ball one"></div>
-      <div className="ball two"></div>
+      <div className="ball">
+        <span></span>
+        <span></span>
+      </div>
     </div>
   );
 };

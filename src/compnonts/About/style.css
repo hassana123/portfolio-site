@@ -15,13 +15,13 @@
     animation-iteration-count: infinite;
     animation-fill-mode: both;
 }
-@keyframes about {
+/* @keyframes about {
     from{
         opacity: 0;
         margin-right: -200px;
        
     }
-}
+} */
 .about-section .about h3{
     text-decoration: overline;
     margin-top: 15px;

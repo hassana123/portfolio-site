@@ -1,9 +1,10 @@
 import React from "react";
 import "./style.css";
+import emailjs from "emailjs-com";
 import wtp from "../../assets/icons/icons8-whatsapp-ios-16-32.png";
 import phone from "../../assets/icons/icons8-phone-call-outline-32.png";
 import gmail from "../../assets/icons/icons8-gmail-logo-ios-16-32.png";
-import { useState } from "react";
+import { useState, useRef } from "react";
 const index = () => {
   const [submit, setSubmit] = useState(false);
   const [name, setName] = useState("");
@@ -14,6 +15,29 @@ const index = () => {
       setSubmit(true);
     }
   }
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    checkSub();
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   function handleChangeName(event) {
     setName(event.target.value);
   }
@@ -41,7 +65,8 @@ const index = () => {
           </div>
         ) : (
           <form
-            onSubmit={() => checkSub()}
+            ref={form}
+            onSubmit={sendEmail}
             method="post"
             action="mailto:hassanaabdll1@gmail.com"
           >
@@ -49,7 +74,7 @@ const index = () => {
               onChange={handleChangeName}
               type="text"
               required
-              name=""
+              name="user_name"
               id=""
               placeholder="enter your  name"
             />
@@ -57,7 +82,7 @@ const index = () => {
               onChange={handleChangeMail}
               required
               type="email"
-              name=""
+              name="user_email"
               id=""
               placeholder="enter your  email"
             />
