@@ -13,6 +13,21 @@
 .home-section .text{
     margin-top: 170px;
     margin-bottom: 80px;
+    animation-name: slow;
+    animation-duration: 5s;
+    transition: all ease-in-out;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+@keyframes slow {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .home-section .text a img{
     width: 20px;
@@ -27,39 +42,64 @@
     line-height: 5rem;
     margin-bottom: 10px;
 }
-.text span.hello{
-    /* animation-name: shake; */
-    animation-duration: 0.9s;
-    animation-delay: 5s;
-    transition: all 3s ease-in-out;
-    animation-fill-mode: both;
-    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+.text small.hello{
+    animation-duration: 3s;
     animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    animation-name: wave-animation;
+    display: inline-block;
 }
 .home-section .mobile-image{
     display:none;
 }
-@keyframes shake {
-    0%{
-        left: 0;
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg)
     }
-    25%{
-        left: -2%;
+
+    10% {
+        transform: rotate(14.0deg)
     }
-    50%{
-        left: 2%;
+    20% {
+        transform: rotate(-8.0deg)
     }
-    100%{
-        left: 0;
+
+    30% {
+        transform: rotate(14.0deg)
     }
-}
-.home-section .text h2{
+
+    40% {
+        transform: rotate(-4.0deg)
+    }
+
+    50% {
+        transform: rotate(10.0deg)
+    }
+
+    60% {
+        transform: rotate(0.0deg)
+    }
+    100% {
+        transform: rotate(0.0deg)
+    }
+}.home-section .text h2{
+    width: 22ch;
     color: #ff7f50;
     font-size: 2rem;
     line-height: 2rem;
     margin-bottom: 40px;
-    
+    border-right: 3px solid #ff7f50;
+    animation: typing 5s steps(60)  infinite;
+    white-space: nowrap;
+    animation-delay: 5s;
+    overflow: hidden; 
 }
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
 .home-section .text p {
     color: #263343;
     font-size: 1.4rem;

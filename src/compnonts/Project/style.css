@@ -19,6 +19,17 @@
     margin-top: 30px;
     margin-bottom: 50px;
     justify-content: center;
+    animation-name: project;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+@keyframes project {
+    from {
+        opacity: 0;
+        margin-right: -200px;
+
+    }
 }
 .project-section .text h3{
     margin-top: 15px ;

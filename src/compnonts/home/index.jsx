@@ -11,7 +11,7 @@ const index = () => {
         <h1>
           Holla <small className="hello">👋🏾</small> , i am Hassana
         </h1>
-        <h2> I am a Frontend Developer</h2>
+        <h2> I am a Frontend Developer.</h2>
         <p>
           I’m a Frontend Developer web developer who likes to create and build
           exciting and challeging projects. I have a passion for discovering new

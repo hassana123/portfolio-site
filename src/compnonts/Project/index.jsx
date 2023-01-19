@@ -23,8 +23,9 @@ const index = () => {
           <img src={qoutely} alt="" />
           <h4>A random quote generator </h4>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-            maiores alias a totam magni minus!
+            Quotely is random Quote generator pulls from my collection of
+            favorite quotes from different angles of life, just over 500 as of
+            October 2022. Come back every so often to add new additions.
           </p>
           <a href="https://quootely.netlify.app/" className="preview">
             preview <img src={arrow} alt="" />
@@ -37,8 +38,10 @@ const index = () => {
           <img src={counter} alt="" />
           <h4>A custom tally counter app</h4>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-            maiores alias a totam magni minus!
+            A Counter is a powerful productivity app to count people,
+            occurrences, instances, repetitions, and anything else. Counter+ is
+            a simple and easy to use counter app to keep track of multiple
+            values.
           </p>
           <a href="https://tally-counter-kappa.vercel.app/" className="preview">
             preview <img src={arrow} alt="" />
@@ -52,10 +55,11 @@ const index = () => {
         </div>
         <div className="project-container">
           <img src={typely} alt="" />
-          <h4>A speed typing game web app</h4>
+          <h4>Typely</h4>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-            maiores alias a totam magni minus!
+            typely is a speed typing game that requires Players to quickly or
+            precisely type in words displyed to them. functioning as both a
+            challenge and a means to improve one's skill at touch typing.
           </p>
           <a href="https://typelyy.netlify.app/" className="preview">
             preview <img src={arrow} alt="" />
@@ -65,25 +69,14 @@ const index = () => {
           </a>
         </div>
         <div className="project-container">
-          <img src={drum} alt="" />
-          <h4>A drum machine</h4>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-            maiores alias a totam magni minus!
-          </p>
-          <a href="https://drum-pad-by-hassy.netlify.app/" className="preview">
-            preview <img src={arrow} alt="" />
-          </a>
-          <a href="https://github.com/hassana123/drumpad" className="github">
-            Github <img src={arrow} alt="" />
-          </a>
-        </div>
-        <div className="project-container">
           <img src={PCD} alt="" />
-          <h4>open-source profile card</h4>
+          <h4>Cardly</h4>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-            maiores alias a totam magni minus!
+            cardly is a open-source profile card design, it is a place to
+            showcase your amazing UI design skills, animation skills, basically
+            all the html, css, and javascript skills you possess. show off your
+            web skills by making cool, eye catching profile cards that represent
+            your brand.
           </p>
           <a href="https://profile-caard.netlify.app/" className="preview">
             preview <img src={arrow} alt="" />
@@ -96,31 +89,13 @@ const index = () => {
           </a>
         </div>
         <div className="project-container">
-          <img src={port} alt="" />
-          <h4>portfolio site</h4>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-            maiores alias a totam magni minus!
-          </p>
-          <a
-            href="https://portfolio-site-by-hassy.vercel.app/"
-            className="preview"
-          >
-            preview <img src={arrow} alt="" />
-          </a>
-          <a
-            href="https://github.com/hassana123/portfolio-site"
-            className="github"
-          >
-            Github <img src={arrow} alt="" />
-          </a>
-        </div>
-        <div className="project-container">
           <img src={todo} alt="" />
           <h4>Todo app</h4>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-            maiores alias a totam magni minus!
+            ToDo List App is a kind of app that generally used to maintain our
+            day-to-day tasks or list everything that we have to do, with the
+            most important tasks at the top of the list, and the least important
+            tasks at the bottom. It is helpful in planning our daily schedules.
           </p>
           <a
             href="https://harmonious-todo-app.netlify.app/"
@@ -136,13 +111,46 @@ const index = () => {
           <img src={random} alt="" />
           <h4>Random Users</h4>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-            maiores alias a totam magni minus!
+            fetchs data from a Random user Generator Api and displays them in an
+            ordely fashion
           </p>
           <a href="https://hallaly-hassana123.vercel.app/" className="preview">
             preview <img src={arrow} alt="" />
           </a>
           <a href="https://github.com/hassana123/hallaly" className="github">
+            Github <img src={arrow} alt="" />
+          </a>
+        </div>
+        <div className="project-container">
+          <img src={drum} alt="" />
+          <h4>A drum machine</h4>
+          <p>
+            Drum Machine is a virtual music instrument featuring sounds of drum
+            instruments
+          </p>
+          <a href="https://drum-pad-by-hassy.netlify.app/" className="preview">
+            preview <img src={arrow} alt="" />
+          </a>
+          <a href="https://github.com/hassana123/drumpad" className="github">
+            Github <img src={arrow} alt="" />
+          </a>
+        </div>
+        <div className="project-container">
+          <img src={port} alt="" />
+          <h4>portfolio site</h4>
+          <p>
+            portfolio site is a project i made for my self to showcase my skills
+          </p>
+          <a
+            href="https://portfolio-site-by-hassy.vercel.app/"
+            className="preview"
+          >
+            preview <img src={arrow} alt="" />
+          </a>
+          <a
+            href="https://github.com/hassana123/portfolio-site"
+            className="github"
+          >
             Github <img src={arrow} alt="" />
           </a>
         </div>

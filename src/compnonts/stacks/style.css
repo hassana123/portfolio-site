@@ -8,6 +8,17 @@ font-family: 'Sofia Sans Condensed', sans-serif;
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    animation-name: stacks;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+@keyframes stacks {
+    from {
+        opacity: 0;
+        margin-right: -200px;
+
+    }
 }
 .stacks-section .text small{
     

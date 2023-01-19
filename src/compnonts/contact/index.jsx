@@ -78,8 +78,13 @@ const index = () => {
             If you have any questions or want to make me an offer, please feel
             free to drop me a line or more. I'll get back to you as soon as I
             can. I'm also available for collaborations. Reach out and let's
-            TechNet (Connect). Also available via
+            TechNet (Connect).
           </p>
+          <h2>
+            <b>
+              Please in case of urgency use WhatApp <small>Thanks!</small>
+            </b>
+          </h2>
           <a href="tel:08102920194">
             <img src={phone} alt="" />
           </a>
