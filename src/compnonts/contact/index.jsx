@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import wtp from "../../assets/icons/icons8-whatsapp-ios-16-32.png";
 import phone from "../../assets/icons/icons8-phone-call-outline-32.png";
 import gmail from "../../assets/icons/icons8-gmail-logo-ios-16-32.png";
@@ -22,10 +22,10 @@ const index = () => {
     checkSub();
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        "service_ispged7",
+        "template_5ttvt6r",
         form.current,
-        process.env.REACT_APP_USER_ID
+        "dpZxMv6bPvp0vzdZP"
       )
       .then(
         (result) => {
@@ -64,12 +64,7 @@ const index = () => {
             </button>
           </div>
         ) : (
-          <form
-            ref={form}
-            onSubmit={sendEmail}
-            method="post"
-            action="mailto:hassanaabdll1@gmail.com"
-          >
+          <form ref={form} onSubmit={sendEmail}>
             <input
               onChange={handleChangeName}
               type="text"
