@@ -108,7 +108,7 @@ const index = () => {
           <a href="tel:08102920194">
             <img src={phone} alt="" />
           </a>
-          <a href="https://wa.me/08102920194">
+          <a href="https://wa.me/+2348102920194">
             <img src={wtp} alt="" />
           </a>
           <a href="mailto:hassanaabdll1@gmail.com">
