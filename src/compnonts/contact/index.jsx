@@ -23,7 +23,7 @@ const index = () => {
     emailjs
       .sendForm(
         "service_ispged7",
-        "template_5ttvt6r",
+        "template_5qvrfrq",
         form.current,
         "dpZxMv6bPvp0vzdZP"
       )

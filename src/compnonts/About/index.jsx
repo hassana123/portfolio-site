@@ -9,17 +9,23 @@ const index = () => {
         <h3>About me</h3>
       </div>
       <p>
-        I am Hassana Abdullahi, currently a level 300 student at bayero
-        university kano in Nigeria but steadily transitioning into tech. Having
-        always had a passion for tech and programmin. a year ago i decided to
-        explore web development. I've since then been learn many new
-        technologies, built amazing web applications and worked in a team of
-        amazing people. <br />
+        I am Hassana Abdullahi, a final-year Computer Science student at Bayero
+        University Kano, Nigeria. My journey in the field of web development has
+        been both exciting and enriching. Throughout my academic tenure, I've
+        delved into various technologies, honed my skills, and had the privilege
+        of collaborating with talented individuals. My experience spans the
+        creation of web applications and productive teamwork. I am a passionate
+        and goal-driven developer who possesses the ability to transform UI/UX
+        designs into immersive digital experiences. At present, I am actively
+        engaged in projects aimed at further enhancing and refining my skill
+        set. My enthusiasm for learning and my commitment to growth are the
+        driving forces behind my continuous development as a developer
         <br />
-        I'm currently working on various frontend projects to improve and hone
-        my skillset. I'm an enthusiastic learner - a goal driven and passionate
-        web developer capable of bringing web designs to life. Currently open to
-        internship, junior frontend roles and also freelance work.
+        <br />I am now seeking opportunities to contribute my skills and
+        knowledge, whether through internships, junior frontend roles, or
+        freelance work. I am eager to apply my expertise and dedication to
+        create exceptional web solutions and deliver outstanding user
+        experiences.
       </p>
     </section>
   );
