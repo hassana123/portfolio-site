@@ -24,22 +24,17 @@ const index = () => {
           <img src={rte} alt="" />
           <h4>Right Times Entertainment</h4>
           <p>
-           an entertainment site, this is a dynamaic platform that offers engaging content that keeps you up to date with latest trends. contents like news, music and music video.
+            an entertainment site, this is a dynamaic platform that offers
+            engaging content that keeps you up to date with latest trends.
+            contents like news, music and music video.
           </p>
-          <a
-            href="https://righttimesentertainment.com"
-            className="preview"
-          >
+          <a href="https://righttimesentertainment.com" className="preview">
             preview <img src={arrow} alt="" />
           </a>
-          <a
-            href="https://github.com/hassana123/RTE"
-            className="github"
-          >
+          <a href="https://github.com/hassana123/RTE" className="github">
             Github <img src={arrow} alt="" />
           </a>
         </div>
-      </div>
         <div className="project-container">
           <img src={qoutely} alt="" />
           <h4>A random quote generator </h4>
