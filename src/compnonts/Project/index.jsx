@@ -2,6 +2,8 @@ import React from "react";
 import arrow from "../../assets/icons/icons8-right-arrow-windows-11-outline-32.png";
 import "./style.css";
 import qoutely from "../../assets/img/QUOTELY.png";
+import lnf from "../../assets/img/LNF.png";
+import Devfest from "../../assets/img/Devfest2023.png";
 import typely from "../../assets/img/Document.png";
 import PCD from "../../assets/img/PCD.png";
 import drum from "../../assets/img/drum.png";
@@ -20,6 +22,51 @@ const index = () => {
       </div>
 
       <div className="grid">
+        <div className="project-container">
+          <img src={lnf} alt="" />
+          <h4>Reclaim Hub</h4>
+          <p>
+            Reclaim Hub is a comprehensive Lost and Found website that
+            simplifies item recovery. Users can sign up, report lost items, and
+            view a dashboard displaying misplaced items, claimed items, and
+            personal reports. The platform streamlines the process, allowing
+            users to interact seamlessly and connect via WhatsApp to reclaim
+            their lost belongings. It's an intuitive solution designed to
+            facilitate item recovery efficiently.
+          </p>
+          <a
+            href="https://lost-and-found-hassana123.vercel.app/"
+            className="preview"
+          >
+            preview <img src={arrow} alt="" />
+          </a>
+          <a
+            href="https://github.com/hassana123/lost-and-found"
+            className="github"
+          >
+            Github <img src={arrow} alt="" />
+          </a>
+        </div>
+        <div className="project-container">
+          <img src={Devfest} alt="" />
+          <h4>DevfestNw event website</h4>
+          <p>
+            I developed a user-centric website for DevFestNW Kano 2023, ensuring
+            an engaging experience for attendees. The site featured
+            comprehensive event information, interactive scheduling and, speaker
+            profiles, fostering a sense of community and facilitating a smooth
+            event experience.
+          </p>
+          <a href="https://tinyurl.com/5eyuts3e" className="preview">
+            preview <img src={arrow} alt="" />
+          </a>
+          <a
+            href="https://github.com/ahmadadejumo/DevfestKano_Web"
+            className="github"
+          >
+            Github <img src={arrow} alt="" />
+          </a>
+        </div>
         <div className="project-container">
           <img src={rte} alt="" />
           <h4>Right Times Entertainment</h4>

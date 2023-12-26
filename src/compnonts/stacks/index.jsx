@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import next from "../../assets/icons/next.png";
 import Html2 from "../../assets/icons/icons8-html-5-150.svg";
 import Css from "../../assets/icons/icons8-css3-150.svg";
 import react from "../../assets/icons/icons8-react-200.svg";
@@ -44,6 +45,10 @@ const index = () => {
         </div>
         <div>
           <img src={react} alt="" />
+          {/* <p>react</p> */}
+        </div>
+        <div>
+          <img src={next} alt="" />
           {/* <p>react</p> */}
         </div>
         <div>
